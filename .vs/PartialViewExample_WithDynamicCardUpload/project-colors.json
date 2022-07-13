@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "38bc1bf1-86fb-4b6d-a488-6d7f764b564c": {
+      "ProjectGuid": "38bc1bf1-86fb-4b6d-a488-6d7f764b564c",
+      "DisplayName": "PartialViewExample_WithDynamicCardUpload",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,19 @@
+﻿@model IEnumerable<PartialViewExample_WithDynamicCardUpload.Product>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+    <div class="container-flex mt-5">
+        <h1 class="text-center">NEW ARRIVALS</h1>
+        <div class="row p-5">
+            @foreach (var item in Model)
+            {
+
+                @Html.Partial("_PartialViewPage",item)
+            }
+            </div>
+    </div>
+
